@@ -1,0 +1,50 @@
+TP 1 - Partículas y Boids
+
+El TP consta en simular partículas y boids en procesadores SMP.
+Definiciones y contexto
+
+Los trabajos son individuales.
+Se provee código que simula partículas en 2D. Van a encontrar la versión serie, la versión OpenMP y la versión Pthreads.
+El código esta dentro del material provisto por la clase.
+El código esta basado en el curso de Berkeley.
+También se provee un visualizado 2D y un 3D. Los visualizadores necesitan OpenGL y SDL.
+Boids es un programa de inteligencia artificial el cual simula el comporta miento de un conjunto de pájaros.
+Fue desarrollado por Craig Reynolds en 1986 y fue publicado en 1987 en la conferencia ACM SIGGRAPH.
+Por cada elemento del conjunto se deben cumplir tres reglas: separación, cohesión y alineamiento.
+Una referencia en wikipedia wiki.
+El sitio oficial de Craig Reynolds aquí.
+Tareas a realizar
+
+Compilar y visualizar los resultados del código provisto.
+Implementar boids en 2D.
+Implementar al menos dos tipos de boids en 2D. Por ejemplo: presa y predador.
+Medir desempeño y crear curvas de tiempo, speedup y eficiencia para 2D.
+Extender la simulación de partículas a 3D.
+Extender la simulación de boids a 3D.
+Medir desempeño y crear curvas de tiempo, speedup y eficiencia para 3D.
+Ir por los puntos extra ;)
+Entrega
+
+Fecha de entrega: 22 de octubre a las 23:55 hs.
+Preparar una presentación para defender ante los compañeros. Seguir los lineamientos de EVL.
+Preparar un sitio personal donde se muestre el trabajo realizado. Si no tiene uno, usar Google Sites.
+Poner a disposición de sus compañeros el código bajo alguna licencia apropiada.
+Las presentaciones duran 10 minutos con 5 minutos extra para preguntas.
+Se debe enviar al profesor TODA la información necesaria para duplicar las pruebas (el código, los scripts de corridas).
+Todos los test deben poder compilarse y ejecutar en cardumen.
+Enviar al profesor un correo con la dirección del sitio web.
+Evaluación
+
+60% en caso de tener un programa funcional que compute partículas y boids en 2D.
+70% si se tiene todo lo anterior y dos tipos de boids en 2D.
+80% si se tiene todo lo anterior y partículas en 3D.
+90% si se tiene todo lo anterior y boids en 3D.
+100% si se entrega todo lo anterior y se hace un estudio estadístico del desempeño (varias corridas para el mismo caso).
+Puntos extra: 
+Si se agregan nuevas características a los boids como obstáculos o tiempos de descanso.
+Si de optimiza el desempeño a través del procesamiento paralelo.
+Si se optimiza el desempeño bajando la complejidad del algoritmo, por el momento es de O(N^2).
+Citas y código externo
+
+Se puede usar código externo.
+Citar TODO el material externo usado.
